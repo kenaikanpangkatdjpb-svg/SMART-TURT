@@ -93,7 +93,7 @@ export default function App() {
     setNotificationToast({
       id: `login-${Date.now()}`,
       title: 'Login Berhasil',
-      text: `Selamat datang kembali, ${username}! SInat siap digunakan.`,
+      text: `Selamat datang kembali, ${username}! SMART-TURT siap digunakan.`,
       type: 'INFO'
     });
   };
@@ -492,10 +492,10 @@ export default function App() {
               </div>
               <div>
                 <div className="flex items-center gap-1.5">
-                  <h1 className="text-lg font-black tracking-tight text-slate-800">SInat</h1>
+                  <h1 className="text-lg font-black tracking-tight text-slate-800">SMART-TURT</h1>
                   <span className="bg-indigo-50 text-indigo-700 text-[10px] font-extrabold px-1.5 py-0.5 rounded-md border border-indigo-100">v1.1</span>
                 </div>
-                <p className="text-xs text-slate-400 font-medium">Sistem Pengingat Nota Dinas & Surat</p>
+                <p className="text-xs text-slate-400 font-medium">Sistem Monitoring Agenda, Reminder, dan Tugas TURT</p>
                 
                 {/* Cloud Sync Status Indicator */}
                 <div className="flex items-center gap-1.5 mt-1.5">
@@ -753,7 +753,7 @@ export default function App() {
         <footer className="mt-12 bg-white border-t border-slate-100 py-6 text-center text-xs text-slate-400 shrink-0">
           <div className="max-w-7xl w-full mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="font-medium">
-              © 2026 Pengingat Nota Dinas & Surat • SInat Subbag TURT
+              © 2026 SMART-TURT • Sistem Monitoring Agenda, Reminder, dan Tugas TURT
             </p>
             <div className="flex items-center gap-4">
               <span className="font-semibold text-slate-500 bg-slate-100 px-2 py-1 rounded-md">100% Offline-First</span>

@@ -69,10 +69,10 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
             <FileClock size={32} />
           </div>
           <div className="space-y-1">
-            <h2 className="text-2xl font-black tracking-tight text-slate-800">SInat Portal</h2>
+            <h2 className="text-2xl font-black tracking-tight text-slate-800">SMART-TURT Portal</h2>
             <p className="text-sm font-semibold text-indigo-600">Subbag TURT</p>
             <p className="text-xs text-slate-400 max-w-[280px] mx-auto leading-relaxed">
-              Sistem Informasi Pengingat Nota Dinas, Surat Masuk & Keluar
+              Sistem Monitoring Agenda, Reminder, dan Tugas TURT
             </p>
           </div>
         </div>
