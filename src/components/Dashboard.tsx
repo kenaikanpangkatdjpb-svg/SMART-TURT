@@ -158,9 +158,9 @@ export default function Dashboard({ documents, onAddDocClick, onViewDocClick, on
         </div>
         <div className="z-10 space-y-1">
           <p className="text-xs font-semibold uppercase tracking-wider text-indigo-200">Rangkuman Aktivitas</p>
-          <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight">Portal Dokumen Subbag TURT</h1>
+          <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight">Portal Dokumen Subbagian TURT Kanwil DJPb Provinsi Riau</h1>
           <p className="text-sm text-indigo-100 max-w-xl">
-            Hari ini adalah <span className="font-medium text-amber-300">Selasa, 14 Juli 2026</span>. Anda memiliki <span className="font-bold underline decoration-amber-400">{stats.pending} dokumen tertunda</span> dan <span className="font-bold underline decoration-rose-400">{stats.overdue} dokumen terlambat</span> yang memerlukan tindakan segera.
+            Hari ini adalah <span className="font-medium text-amber-300">Rabu, 15 Juli 2026</span>. Anda memiliki <span className="font-bold underline decoration-amber-400">{stats.pending} dokumen tertunda</span> dan <span className="font-bold underline decoration-rose-400">{stats.overdue} dokumen terlambat</span> yang memerlukan tindakan segera.
           </p>
         </div>
         <div className="z-10 flex gap-2 self-start md:self-center">

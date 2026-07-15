@@ -55,7 +55,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
   const handleQuickLogin = () => {
     setIsLoading(true);
     setTimeout(() => {
-      onLoginSuccess('Subbag TURT');
+      onLoginSuccess('Subbagian TURT Kanwil DJPb Riau');
     }, 500);
   };
 
@@ -70,7 +70,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
           </div>
           <div className="space-y-1">
             <h2 className="text-2xl font-black tracking-tight text-slate-800">SMART-TURT Portal</h2>
-            <p className="text-sm font-semibold text-indigo-600">Subbag TURT</p>
+            <p className="text-sm font-semibold text-indigo-600">Subbagian TURT Kanwil DJPb Provinsi Riau</p>
             <p className="text-xs text-slate-400 max-w-[280px] mx-auto leading-relaxed">
               Sistem Monitoring Agenda, Reminder, dan Tugas TURT
             </p>
