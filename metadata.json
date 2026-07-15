@@ -1,0 +1,6 @@
+{
+  "name": "Pengingat Nota Dinas & Surat",
+  "description": "Aplikasi web untuk mencatat, melacak, dan mengingatkan dokumen penting seperti Nota Dinas, Surat Masuk/Keluar, dan Undangan Masuk/Keluar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
